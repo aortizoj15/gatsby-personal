@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Full-Stack Personal Site',
+    title: 'Alexis Ortiz Ojeda',
     author: 'Alexis Ortiz Ojeda',
   },
   plugins: [

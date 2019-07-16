@@ -1,3 +1,4 @@
+@import "../styles/variables";
 .header {
   padding: 1rem 0 3rem;
 }
@@ -12,19 +13,20 @@
   display: flex;
   list-style-type: none;
   margin: 0;
+  justify-content: space-between;
 }
 
 .nav-item {
-  color: #999999;
-  font-size: .9rem;
+  color: $navy-color;
+  font-size: 1.3rem;
   margin-right: 1.3rem;
   text-decoration: none;
 }
 
 .nav-item:hover {
-  color: #555555
+  color: $aqua-color;
 }
 
 .active-nav-item {
-  color: #333333;
+  color: $aqua-color;
 }

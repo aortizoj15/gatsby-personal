@@ -1,5 +1,6 @@
-/* Reset provided by https://github.com/gatsbyjs/gatsby-starter-blog via MIT license */
+@import "variables";
 
+/* Reset provided by https://github.com/gatsbyjs/gatsby-starter-blog via MIT license */
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -210,6 +211,7 @@ body {
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
+  background: linear-gradient(110deg, $coral-color 40%, rgba(0, 0, 0, 0) 30%), radial-gradient(farthest-corner at 0% 0%, #ffffff 70%, $coral-color 70%);
 }
 img {
   max-width: 100%;
@@ -621,4 +623,23 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background: $navy-color;
+  width: 40%;
+  color: $coral-color;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.card-container {
+  padding: 2px 16px;
 }
