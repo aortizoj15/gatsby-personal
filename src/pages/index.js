@@ -9,7 +9,7 @@ const IndexPage = () => (
       <Head title="Home" />
       <h1>Hello.</h1>
       <h2>
-        My name is Alexis Ortiz Ojeda, a full-stack developer from Santa Cruz.
+        My name is Alexis Ortiz Ojeda, a software developer from San Jose.
       </h2>
       <p>
         Need a developer? <Link to="/contact">Contact me.</Link>
