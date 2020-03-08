@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, graphql, useStaticQuery } from 'gatsby';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 // import './header.module.scss';
 import headerStyles from './header.module.scss';
 
@@ -15,11 +16,11 @@ const Header = () => {
   `);
   return (
     <header className={headerStyles.header}>
-      <h1>
+      {/* <h1>
         <Link className={headerStyles.title} to="/">
           {data.site.siteMetadata.title}
         </Link>
-      </h1>
+      </h1> */}
       <nav>
         <ul className={headerStyles.navList}>
           <li>
@@ -35,18 +36,18 @@ const Header = () => {
             <Link
               className={headerStyles.navItem}
               activeClassName={headerStyles.activeNavItem}
-              to="/blog"
+              to="/projects"
             >
-              Blog
+              Projects
             </Link>
           </li>
           <li>
             <Link
               className={headerStyles.navItem}
               activeClassName={headerStyles.activeNavItem}
-              to="/about"
+              to="/blog"
             >
-              About
+              Blog
             </Link>
           </li>
           <li>
@@ -57,6 +58,20 @@ const Header = () => {
             >
               Contact
             </Link>
+          </li>
+          <li>
+            <a
+              className={headerStyles.icon}
+              href="https://www.linkedin.com/in/alexis-ortiz-ojeda/"
+            >
+              <FaLinkedin />
+            </a>
+            <a
+              className={headerStyles.icon}
+              href="https://github.com/aortizoj15"
+            >
+              <FaGithub />
+            </a>
           </li>
         </ul>
       </nav>

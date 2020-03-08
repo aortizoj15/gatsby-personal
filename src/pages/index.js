@@ -2,20 +2,25 @@ import React from 'react';
 import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import Head from '../components/head';
+import AutoTypeHome from '../components/AutoTypeHome';
 
 const IndexPage = () => (
-  <div>
-    <Layout>
-      <Head title="Home" />
-      <h1>Hello.</h1>
-      <h2>
-        My name is Alexis Ortiz Ojeda, a software developer from San Jose.
-      </h2>
+  <Layout>
+    <Head title="Home" />
+    <AutoTypeHome />
+    <section className="about">
+      <h2>About Me</h2>
       <p>
-        Need a developer? <Link to="/contact">Contact me.</Link>
+        As seen above, my name is Alexis Ortiz Ojeda. I am a full-stack
+        developer residing in San Jose, CA. I attended the University of
+        California Santa Cruz and received a degree in Computer Networking and
+        Digital Technology. While in college, I found my passion for making
+        websites and have continued to improve my skills every day. I am 23 and
+        married to a wonderful woman. When I am not programming, I am making rap
+        beats, reading books, or listening to podcasts.
       </p>
-    </Layout>
-  </div>
+    </section>
+  </Layout>
 );
 
 export default IndexPage;
