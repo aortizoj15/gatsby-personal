@@ -61,6 +61,12 @@ const Header = () => {
           </li>
           <li>
             <a
+              href="https://drive.google.com/open?id=1HoMg9QHGH2qicG8bZ8hRWv7FT7GXjFB5"
+              className={headerStyles.navItem}
+            >Resume</a>
+          </li>
+          <li>
+            <a
               className={headerStyles.icon}
               href="https://www.linkedin.com/in/alexis-ortiz-ojeda/"
             >

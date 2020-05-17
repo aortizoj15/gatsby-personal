@@ -1,0 +1,21 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+.autoType {
+}
+.heading {
+  align-self: center;
+}
+.paragraph {
+  line-height: 1.5;
+  font-size: 1.2rem;
+  width: 75%;
+  align-self: center;
+}
+.listContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
