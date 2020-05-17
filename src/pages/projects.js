@@ -23,6 +23,13 @@ const ProjectsPage = () => (
           codeUrl="https://github.com/aortizoj15/frontend-apps"
           demoUrl="https://frontend-apps.a0d3.com/"
         />
+        <ProjectCard
+          title="Movie Wars"
+          paragraph="App Used to Compare Movies Side by Side"
+          imgUrl="https://i.ibb.co/4YwvBMd/Screenshot-from-2020-05-16-23-05-41-removebg-preview.png"
+          codeUrl="https://github.com/aortizoj15/movie-wars"
+          demoUrl="https://aortizoj15.github.io/movie-wars/"
+        />
       </div>
     </Layout>
   </div>
