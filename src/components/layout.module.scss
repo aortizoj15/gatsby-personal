@@ -14,3 +14,8 @@
   color: #ffffff;
   align-self: center;
 }
+@media (max-width: 480px) {
+  .container {
+    max-width: 100%;
+  }
+}

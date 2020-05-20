@@ -6,7 +6,7 @@ import Alert from '@material-ui/lab/Alert';
 const useStyles = makeStyles((theme) => ({
   root: {
     width: '100%',
-    margin: '1rem',
+    margin: '1rem 0 2rem',
   },
 }));
 

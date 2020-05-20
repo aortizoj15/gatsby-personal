@@ -7,7 +7,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 const useStyles = makeStyles((theme) => ({
   root: {
     width: '100%',
-    maxWidth: 360,
+    maxWidth: 260,
     backgroundColor: '#424242',
     margin: '1rem 1rem 0 0',
   },
