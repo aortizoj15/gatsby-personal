@@ -56,9 +56,13 @@ const Header = () => {
           </li>
           <li>
             <a
-              href="https://drive.google.com/open?id=1HoMg9QHGH2qicG8bZ8hRWv7FT7GXjFB5"
+              href="https://docs.google.com/document/d/19Kjd7Sc2ZaMb9Sk4q2K7_zuZ78vtgmS63pa9xdRu4bA/edit?usp=sharing"
+              target="_blank"
               className={headerStyles.navItem}
-            >Resume</a>
+              rel="noreferrer"
+            >
+              Resume
+            </a>
           </li>
           <li>
             <a
