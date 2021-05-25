@@ -17,7 +17,11 @@ function AlertDisplay() {
     <div className={classes.root}>
       <Alert variant="filled" severity="info">
         <strong>Need an experienced developer for your team? Hire me! </strong>{' '}
-        <a href="https://docs.google.com/document/d/19Kjd7Sc2ZaMb9Sk4q2K7_zuZ78vtgmS63pa9xdRu4bA/edit?usp=sharing">
+        <a
+          href="https://docs.google.com/document/d/19Kjd7Sc2ZaMb9Sk4q2K7_zuZ78vtgmS63pa9xdRu4bA/edit?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+        >
           <strong>Resume</strong>
         </a>{' '}
         <Link to="/contact">

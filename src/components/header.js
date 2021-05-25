@@ -68,12 +68,16 @@ const Header = () => {
             <a
               className={headerStyles.icon}
               href="https://www.linkedin.com/in/alexis-ortiz-ojeda/"
+              target="_blank"
+              rel="noreferrer"
             >
               <FaLinkedin />
             </a>
             <a
               className={headerStyles.icon}
               href="https://github.com/aortizoj15"
+              target="_blank"
+              rel="noreferrer"
             >
               <FaGithub />
             </a>

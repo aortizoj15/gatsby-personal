@@ -25,7 +25,7 @@ const BlogPage = () => {
         <h1>Blog</h1>
         <h2>
           Welcome to my blog where I post articles on my experiences as a
-          full-stack developer.
+          software engineer.
         </h2>
         <ol className={blogStyles.posts}>
           {data.allContentfulBlogPost.edges.map(edge => (

@@ -1,8 +1,9 @@
 import React from 'react';
 import Layout from '../components/layout';
 import Head from '../components/head';
-import ProjectCard from '../components/projectCard'
+import ProjectCard from '../components/projectCard';
 import projectStyles from './projects.module.scss';
+
 const ProjectsPage = () => (
   <div>
     <Layout>

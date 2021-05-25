@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "alexis-ortiz-ojeda-personal-site",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Source Code for Alexis Ortiz Ojeda Personal Site",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -26,7 +26,7 @@
     "gatsby-source-contentful": "^2.0.63",
     "gatsby-source-filesystem": "^2.1.29",
     "gatsby-transformer-remark": "^2.3.12",
-    "node-sass": "^4.13.1",
+    "node-sass": "^4.14.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
@@ -43,9 +43,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/aortizoj15/gatsby-personal"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/aortizoj15/gatsby-personal/issues"
   }
 }
