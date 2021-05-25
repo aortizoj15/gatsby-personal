@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import Head from '../components/head';
 import AutoTypeHome from '../components/AutoTypeHome';
@@ -43,10 +42,10 @@ const IndexPage = () => (
     <section className={indexStyles.section}>
       <h1 className={indexStyles.heading}>Little About Myself</h1>
       <p className={indexStyles.paragraph}>
-        As seen above, my name is Alexis Ortiz Ojeda. I am a full-stack
-        developer residing in San Jose, CA. I attended the University of
-        California Santa Cruz and received a degree in Computer Networking and
-        Digital Technology.
+        As seen above, my name is Alexis Ortiz Ojeda. I am a software engineer
+        residing in San Jose, CA. I attended the University of California Santa
+        Cruz and received a degree in Computer Networking and Digital
+        Technology.
       </p>
       <p className={indexStyles.paragraph}>
         While in college, I found my passion for making websites and have
