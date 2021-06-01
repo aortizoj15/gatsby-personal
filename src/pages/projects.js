@@ -13,16 +13,23 @@ const ProjectsPage = () => (
         <ProjectCard
           title="c0d3"
           paragraph="Platform Creating Great Software Engineers"
-          imgUrl="https://i.ibb.co/m8DXBDR/c0d3-nobg.png"
+          imgUrl="https://i.ibb.co/3CVmyLC/c0d3-meta.png"
           codeUrl="https://github.com/garageScript/c0d3-app"
           demoUrl="https://www.c0d3.com/"
         />
         <ProjectCard
-          title="Front End Apps"
-          paragraph="Collection of Apps Created Using Vanilla JS"
-          imgUrl="https://i.ibb.co/svJSZ6X/htmlcssjs.png"
-          codeUrl="https://github.com/aortizoj15/frontend-apps"
-          demoUrl="https://frontend-apps.a0d3.com/"
+          title="Leslie Colon"
+          paragraph="Portfolio Website for On-Camera Host and Writer Leslie Colon"
+          imgUrl="https://i.ibb.co/S089ZFv/Leslie-Logo.png"
+          codeUrl="https://github.com/aortizoj15/leslie-gatsby"
+          demoUrl="https://thelesliecolon.com/"
+        />
+        <ProjectCard
+          title="EC Synthetic Services"
+          paragraph="Business Brochure for Home Refinishing Company"
+          imgUrl="https://i.ibb.co/8mxgcrT/text-logo-home.png"
+          codeUrl="https://github.com/aortizoj15/ecss-spa"
+          demoUrl="https://ecsyntheticservices.com/"
         />
         <ProjectCard
           title="Movie Wars"
