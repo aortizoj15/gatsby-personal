@@ -18,6 +18,20 @@ const ProjectsPage = () => (
           demoUrl="https://www.c0d3.com/"
         />
         <ProjectCard
+          title="Peloton Van"
+          paragraph="Web Application allowing managers to upload van inventory files and make them available to drivers via QR code"
+          imgUrl="https://i.ibb.co/C0ywqGX/peloton-logo.png"
+          codeUrl="https://github.com/aortizoj15/peloton-nextjs"
+          demoUrl="https://peloton-nextjs.vercel.app/"
+        />
+        <ProjectCard
+          title="Personal Blog"
+          paragraph="Minimalist Easy to Read Blog"
+          imgUrl="https://i.ibb.co/dbbL2dG/blog-logo.png"
+          codeUrl="https://github.com/aortizoj15/nextjs-blog"
+          demoUrl="https://alexisortizojeda-blog.vercel.app/"
+        />
+        <ProjectCard
           title="Leslie Colon"
           paragraph="Portfolio Website for On-Camera Host and Writer Leslie Colon"
           imgUrl="https://i.ibb.co/S089ZFv/Leslie-Logo.png"
@@ -27,14 +41,14 @@ const ProjectsPage = () => (
         <ProjectCard
           title="EC Synthetic Services"
           paragraph="Business Brochure for Home Refinishing Company"
-          imgUrl="https://i.ibb.co/8mxgcrT/text-logo-home.png"
+          imgUrl="https://i.ibb.co/GsZr8KP/ec-services-logo.jpg"
           codeUrl="https://github.com/aortizoj15/ecss-spa"
           demoUrl="https://ecsyntheticservices.com/"
         />
         <ProjectCard
           title="Movie Wars"
           paragraph="App Used to Compare Movies Side by Side"
-          imgUrl="https://i.ibb.co/4YwvBMd/Screenshot-from-2020-05-16-23-05-41-removebg-preview.png"
+          imgUrl="https://i.ibb.co/51f4r63/clapper-logo.jpg"
           codeUrl="https://github.com/aortizoj15/movie-wars"
           demoUrl="https://aortizoj15.github.io/movie-wars/"
         />

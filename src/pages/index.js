@@ -24,7 +24,7 @@ const IndexPage = () => (
           items={[
             'GraphQL',
             'Node.js',
-            'RESTful Api',
+            'RESTful API',
             'Express.js',
             'Apollo Server',
           ]}
@@ -42,16 +42,10 @@ const IndexPage = () => (
     <section className={indexStyles.section}>
       <h1 className={indexStyles.heading}>Little About Myself</h1>
       <p className={indexStyles.paragraph}>
-        As seen above, my name is Alexis Ortiz Ojeda. I am a software engineer
-        residing in San Jose, CA. I attended the University of California Santa
-        Cruz and received a degree in Computer Networking and Digital
-        Technology.
+        As seen above, my name is Alexis Ortiz Ojeda. I am a software engineer residing in San Jose, CA. I attended the University of California Santa Cruz and received a degree in Computer Networking and Digital Technology.
       </p>
       <p className={indexStyles.paragraph}>
-        While in college, I found my passion for making websites and have
-        continued to improve my skills every day. I am 24 and married to a
-        wonderful woman. When I am not programming, I am making beats, reading
-        books, or listening to podcasts.
+        While in college, I found my passion for making websites and have continued to improve my skills every day. When I am not programming, I am making beats, reading books, or listening to podcasts.
       </p>
     </section>
   </Layout>
